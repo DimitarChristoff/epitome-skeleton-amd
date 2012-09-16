@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Epitome example requirejs app</title>
+
+	<link href="css/app-main.css" type="text/css" rel="stylesheet" />
+	<link rel="shortcut icon" href="favicon.ico" />
+</head>
+<body>
+
+<div class="navbar container">
+	<div class="navbar-inner row">
+		<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<a class="brand" href="#!/">Home</a>
+		<div class="nav-collapse collapse">
+			<ul class="nav">
+				<li>
+					<a href="#!/">Home</a>
+				</li>
+				<li>
+					<a href="#!/getting-started">Get Started</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class='row'>
+		<div id="home">
+		</div>
+		<div id="gettingStarted">
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/mootools/1.4.5/mootools.js"></script>
+<script type="text/javascript" src="js/vendor/require.js" data-main="js/app/index-app.js"></script>
+</body>
+</html>
